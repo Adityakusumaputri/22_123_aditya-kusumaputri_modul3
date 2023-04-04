@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+    <title>Toko kuu</title>
+    <link rel="stylesheet" href="tugas 2 css.css">
+    <script src="tugas.js"> </script>
+
+</head>
+
+<body bgcolor="#F5DEB3">
+    <header>
+        <nav>
+            <div class="logo">  <img width="40" height="45" src="logo.jpg" alt="" /></div>
+                
+            
+            <ul>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#deskripsi">Deskripsi</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#kontak">Kontak Kami</a></li>
+            </ul>
+        
+            <!-- buat hamburger menu di pojok kanan atas  -->
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <div>
+
+    </div>
+    <div class="banner">
+    <section class="Services">
+        <div  id="tentang">
+            <h1 > Hii, Fashionista <span style="color:red;" > &#9829 </span> </h1>
+            <h2 > Cantik Seutuhnya dengan Koleksi Kami <h2>
+        </div>
+    
+            <div class="btn-kontak">
+                <a href="https://instagram.com/id.shopnganjuk?igshid=OGRjNzg3M2Y=" class="btn ig"> <i class="bi bi-instagram"> </i> Katalog Instagram </a>
+                <p> Atau </p>
+                <a href="https://shp.ee/btq7uuk" class="btn shoppe"> <i class="bi bi-shoppe"> </i> Katalog Shoppe </a>
+            </div>
+    </section>
+    </div>
+
+    <div class="Services" class="content">
+    <section class="Services">
+        <div class="container" id="deskripsi">
+            <h3 class="judul-content" > <b> Deskripsi Toko</b></h3>
+            <div  class="deskripsi">
+                <p class="Services" > KEEP= NO CANCEL = NO RETUR<br>
+                Barang ready stock <br>
+                Ada beberapa produk yang PO<br>
+                Melayani COD rute Nganjuk kota<br></p>
+            </div>
+        </div>
+    </section>
+    </div>
+
+
+    <div class="produk-content">
+    <section class="Services">
+        <div class="produk" id="produk">
+            <h3   class="judul-content" > <b> Produk</b></h3>
+            <div >
+                <div class="service">
+                    <div><img width="300" height="360" src="Dress utama.jpg" /></div>
+                    <h3>Rekomendasi Dress</h3>
+                    <p>
+                        Tersedia beberapa macam koleksi dress ditoko kita, kalian bisa mengunjungi link dibawah ini.
+                        <a href="file:///C:/Dita/praktikum/pertemuan%202/Koleksi%20dress.html"> <p>Koleksi Dress </p></a>
+                    </p>
+                </div>
+                <div class="service">
+                    <div><img width="300" height="360" src="Dress utama.jpg" />
+                        <h3>Rekomendasi Blouse</h3>
+                        <p>
+                            Tersedia beberapa macam koleksi blouse ditoko kita, kalian bisa mengunjungi link dibawah ini.
+                            <a href="file:///C:/Dita/praktikum/pertemuan%202/Koleksi%20Blouse.html"><p> Koleksi Blouse</p> </a>
+                        </p>
+                </div>
+                <div class="service">
+                    <div><img width="300" height="360" src="Rok utama.jpg" />
+                        <h3>Rekomendasi Skirt</h3>
+                        <p>
+                            Tersedia beberapa macam koleksi Skirt ditoko kita, kalian bisa mengunjungi link dibawah ini.
+                            <a href="file:///C:/Dita/praktikum/pertemuan%202/koleksi%20Skirt.html"><p> Koleksi Skirt </p> </a>
+                        </p>
+                </div>
+                <div class="service">
+                    <div><img width="300" height="360" src="Tas utama.jpg" />
+                        <h3>Rekomendasi Tas</h3>
+                        <p>
+                            Tersedia beberapa macam koleksi Skirt ditoko tas, kalian bisa mengunjungi link dibawah ini.
+                            <td align="center"> <a href="file:///C:/Dita/praktikum/pertemuan%202/Koleksi%20Tas.html"> <p>Koleksi Tas</p> </a>
+                        </p>
+                </div>
+                    
+                <br></br>
+                <h1> <b> Ayoo cek, ada diskon nih</b></h1>
+                <table class="Services" >
+                    <tr>
+                    <td> Nama Produk </td>
+                    <td> : </td>
+                    <td> <input type="text" id="barang" value="" ></input> </td>
+                    </tr>
+                    <tr>
+                    <td> Jumlah Produk</td>
+                    <td> : </td>
+                    <td> <input type="number" id="jumlah" value="jumlah"> </input></td>
+                    </tr>
+                    <tr>
+                    <td> Harga Produk</td>
+                    <td> : </td>
+                    <td> <input type="number" id="harga" value="harga"> </input></td>
+                    </tr>
+                    <tr>
+                    <td> Diskon</td>
+                    <td> : </td>
+                    <td> <input type="number" id="diskon" value="20" readonly>  </input></td>
+                    </tr>
+                    <tr>
+                    <td>Total </td>
+                    <td>: </td>
+                    <td><input type="number" id="total" value="total"> </input> </td>
+                    </tr>
+                    </table>
+                    <button onclick="klik()"> klik </button>
+                </table>
+                
+            </div>
+        </div>
+    </section>
+    </div>
+    <br></br>
+    <div class="contact" id="kontak">
+        <h3  class="judul-content">Kontak Kami</h3>
+        <div  class="form">
+          <form method="post" >
+            <p>Kirimkan pesan kepada kami, baik Kritik atau Saran</p>
+            <br></br>
+            <p>Email </p>
+            <input type="email"  />
+            <p>Pesan </p>
+            <input type="text"/>
+            <br> </br>
+            <button class="submit" type="submit" value="simpan" >Selesai</button>
+            <button class="submit" type="reset" value="reset" > Hapus</button>
+            <div class="buttonToTop" onclick="scrollKeatas()">
+                <img src="scrolllogo.png">
+            </div> 
+          </form>
+        </div>
+      </div>
+
+    </div>
+    <footer class="Services">
+        <div class="footer-logo">
+            <img src="Logo.jpg" width="100" height="105" />
+        </div>
+        
+        <div class="footer-list">
+          <ul>
+            <li> <b> id.shopnganjuk </b> </li>
+            <li> <b> Kec.Tanjunganom Kab.Nganjuk Jawa Timur</b> </a></li>
+            <li> <b> 085850080589 </b> </li>
+          </ul>
+        </div>
+    </footer>
+<script language="JavaScript">
+const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
+
+menuToggle.addEventListener("click", function(){
+    nav.classList.toggle("slide");
+});
+</script>
+
+</body>
+</html>
